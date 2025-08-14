@@ -1,0 +1,81 @@
+picocom v3.1
+
+port is        : /dev/ttyUSB0
+flowcontrol    : none
+baudrate is    : 115200
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+
+Ver:20220831-Turret
+adc:1 7000 0, EV:8, is night:0, pwm freq:20000 duty:100, led mode:close 
+[33m370[W] Main run @ 370ms
+[0m[33m391[W] Enter app_config_sync_thread_func
+[0m[33m413[W] Start read configs, size:0xa20
+[0m[33m414[W] Read configs complete
+[0m[33m415[W] WiFi Password:43655878
+[0mcmdline_init_env
+Tag env inited:senv;[HW];init_vw=2560;init_vh=1440;nrvbs=2;mode=0;mfmode=0;adc_value=7000;max_vw=2560;max_vh=1440;night_fps=0;night_max_again=0;night_max_dgain=0;[IR];ir_mode=auto;pwm_freq=20000;pwm_duty=100;eenv;debug
+[33m416[W] ModelName:PR4000Pro, FW ver:1.1.9.4, wifiSupported:1, sidePirSupported:0, keyBoardType:1, batType:1, logoSize:0
+[0m[33m416[W] CpuId:3931ad080190842438081010
+[0mIVS Version:1.0.5 built: May  7 2022 14:47:33
+perm_region.roi:161	89
+big_mask: 320	176
+level_ =0.700000 ,max_score=1.000000 , min_score=0.600000
+timeon=0,timeoff=0
+aft timeon=150,timeoff=0
+aft target_score=0.880000,level=49561.601563
+level=0.700000,timeon=150,timeoff=0
+!! The specified ScalingList is not allowed; it will be adjusted!!
+[33m471[W] Enter BleSyd8810_UartRead_ThreadFunc
+[0m[31m471[E] Unsupported model:PR4000Pro
+!! The specified ScalingList is not allowed; it will be adjusted!!
+IMP_Alloc fails to alloc the 937056 size dma buf
+malloc the IMP_Alloc varible buf failed
+AL_BufPool_Init failed
+[0m[33m492[W] Wakeup evt:USB, workMode:Usb, Time: [2023-1-16 09:29:08], bleMac:[18-84-E0-0D-1E-C1]
+[0m[33m492[W] Syd8810 FW verName:2.7.5, verCode:275
+[0m[33m492[W] BootBatAdc:639, BatPercent:20, usbConnected:1
+[0m[33m492[W] defaultTimeUTC:5967498496
+[0m[31m504[E] IMP_Encoder_CreateChn(1) error
+[0m[31m504[E] Encoder init failed
+exec: echo 262144 > /proc/sys/vm/dirty_bytes
+[0m[33m511[W] EasyCam wakeupEvt:USB
+[0mnot SU_PWM_CreateChn !
+[31m515[E] SU_PWM_ModifyChnDuty failed
+[0m[33m515[W] Init ir status:3
+[0mwarn: shm_init,53shm init already
+Setting up swapspace version 1, size = 16773120 bytes
+[33m531[W] Light meter value:399, day2nightThresh:7000, night2dayThreshIrOn:600, night2dayThreshIrOff:5000, nightLightType:0, night_vision_mode:0
+UUID=11c416c6-e1df-434c-a9b3-7c1a10e3c809
+[0m[33m559[W] batAdc:607, batVol:4.58, batPercent:10, isFillLightOn:0
+
+(none) login: [0mwarn: shm_init,53shm init already
+[31m1451[E] IMP_IVS_PollingResult(0) failed, ret:-1
+[0m[31m2451[E] IMP_IVS_PollingResult(0) failed, ret:-1
+[0m[33m2565[W] No tf card
+[0m[31m2565[E] opendir /sd/upgrade fail
+[0m[31m3451[E] IMP_IVS_PollingResult(0) failed, ret:-1
+
+** read zero bytes from stdin **
+
+Terminating...
+Thanks for using picocom

@@ -1,0 +1,16 @@
+bootargs=console=ttyS1, 115200n8, 
+mem=42M@0x0, rmem=22M@0x2a00000,
+root=/dev/ram0 rw, rdinit=linuxrc
+mtdparts=jz_sfc
+boot=256K tag=352K kernel=5M rootfs=3M recovery=2560K system=4512K config=512K, 16M@0(all)
+bootcmd=sf probe; 
+sf read 0x80600000 0x898000 0x2800000;
+bootm 0x80600000
+bootdelay=1
+EPTGMK
+mips-linux-gnu-gcc (Ingenic r2.3.3 2016.12) 4.7.2Jz4775-9161
+Board: ISVP (Ingenic XBurst T31 SoC)
+U-Boot 2013.07 (Nov 30 2022)
+jz_serial
+SENS could be the magic code or header0 both unlikely
+Likely a password: kI9k0Zc5yS
