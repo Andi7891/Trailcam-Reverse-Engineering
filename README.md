@@ -58,4 +58,5 @@ Add custom firmware features and improved user accessibility
   <img src="3.jpeg" width="800">
   <img src="4.jpeg" width="800">
   <img src="5.jpeg" width="800">
+  <img src="6.jpeg" width="800">
 </p>
