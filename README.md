@@ -52,3 +52,10 @@ Future Improvements
 Implement an automated recovery script for similar firmware corruption issues
 
 Add custom firmware features and improved user accessibility
+<p align="center">
+  <img src="1.jpeg" width="800">
+  <img src="2.jpeg" width="800">
+  <img src="3.jpeg" width="800">
+  <img src="4.jpeg" width="800">
+  <img src="5.jpeg" width="800">
+</p>
