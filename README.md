@@ -33,6 +33,12 @@ Extracted firmware and located resolution settings using a hex editor.
 Reduced the resolution to match the device’s RAM capabilities.
 
 Reflashed the modified firmware.
+<p align="left">
+  Before
+  <img src="before.png" width="400">
+  After
+  <img src="after.png" width="400">
+</p>
 
 ## Result
 The camera booted successfully without entering a crash loop, restoring full functionality.
